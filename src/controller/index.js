@@ -3,13 +3,7 @@ const homePage = (req, res)=>{
     <h2>Mentor</h2>
     <ul>
 
-<li>GET Get All Mentors = api/mentors</li>
-<li>POST Add New Mentor = api/mentors</li>
-<li>DELETE Delete Mentor = api/mentors/:id</li>
-<li>GET Mentor Student List = api/mentors/students/:mentor_id</li>
-<li>PUT Edit Mentor = api/mentors/:id</li>
-<li>GET Get One Mentor = api/mentors/:id</li>
-
+    <li>GET Get All Mentors = api/mentors</li>
     </ul>
 
     <h2>Student</h2>
