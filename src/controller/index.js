@@ -1,4 +1,4 @@
-const homePage = (req, res)=>{
+const homePage = (_, res)=>{
     res.status(200).send(`<h1>Student Mentor Management</h1>
     
 
