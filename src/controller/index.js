@@ -1,16 +1,6 @@
 const homePage = (req, res)=>{
     res.status(200).send(`<h1>Student Mentor Management</h1>
-    <h2>Mentor</h2>
-    <ul>
-
-<li>GET Get All Mentors = api/mentors</li>
-<li>POST Add New Mentor = api/mentors</li>
-<li>DELETE Delete Mentor = api/mentors/:id</li>
-<li>GET Mentor Student List = api/mentors/students/:mentor_id</li>
-<li>PUT Edit Mentor = api/mentors/:id</li>
-<li>GET Get One Mentor = api/mentors/:id</li>
-
-    </ul>
+    
 
     <h2>Student</h2>
 
