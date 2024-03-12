@@ -14,11 +14,7 @@ const homePage = (req, res)=>{
 
     </ul>
 
-    <h2>Assign</h2>
 
-    <ul>
-    <li>POST Assign multy Student = api/assign/student/:batch/mentor/:mentor_id</li>
-    </ul>
 
     `);
 }
