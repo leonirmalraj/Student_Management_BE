@@ -8,7 +8,7 @@ const app = express();
 const PORT = 3000;
 app.use(cors(
     {
-        origin: 'http://localhost:5173/', // Allow requests from this origin
+        origin: 'https://earnest-blancmange-c3b65d.netlify.app/', // Allow requests from this origin
         optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
     }
 ))
